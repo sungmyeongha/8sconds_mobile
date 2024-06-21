@@ -1,0 +1,151 @@
+
+.main_banner {
+    position: relative;
+}
+.swiper_container {
+    display: flex;
+}
+
+.main_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_banner { 
+    max-width: 430px;
+}
+.swiper-wrapper {
+    width: 100%;
+}
+.swiper-slide > a > img {
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+.main_img_box > img {
+    width: 100%;
+}
+.left_btn {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+.stop_btn {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+.right_btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+
+.main_container {
+    padding-top: 100px;
+    position: relative;
+}
+
+.main_title {
+    width: 236px; 
+    display: flex;
+
+    align-items: center;
+    gap: 30px;
+}
+.main_title > h1 {
+   font-size: 30px;
+}
+
+.main_title > span {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.main_img_box {
+    width: calc(100% - 60px) / 4;
+    position: relative;
+    box-sizing: border-box;
+    display:block;
+}
+.bottom_btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    z-index: 99999;
+} 
+    
+
+
+.img_txt > p {
+    font-weight: 900;
+}
+
+.border_box {
+    position: absolute;
+    top: 125px;
+    left: 180px;
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    box-sizing: border-box;
+    display: none;
+}
+
+.look_book_box {
+    position: relative;
+}
+.look_title {
+    text-align: center;
+}
+
+.look_type {display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    padding-bottom: 50px;
+}
+
+.look_type > div {
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 5px 8px;
+}
+
+.swiper_container2  {
+    display: flex;
+    width: calc((100% - 20px) / 2);
+    gap: 20px;
+    
+}
+
+
+.swiper_btn {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.stop_img {
+    background: url(../img/logo/media-play-line-44-white.svg) no-repeat center / cover;
+
+}
+.play_img {
+    background: url(../img/logo/media-pause-line-44.svg) no-repeat center / cover;
+}
