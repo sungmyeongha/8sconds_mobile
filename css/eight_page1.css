@@ -94,7 +94,7 @@
 
 .border_box {
     position: absolute;
-    top: 125px;
+    top: 162px;
     left: 180px;
     width: 40px;
     height: 3px;
@@ -102,7 +102,6 @@
     box-sizing: border-box;
     display: none;
 }
-
 .look_book_box {
     position: relative;
 }
