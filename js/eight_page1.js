@@ -38,7 +38,7 @@ for (let i = 0; i <8; i++) {
             <img src="${ITEM_LIST[0][i].src}">
                 <div class="img_txt">
                     <p>8 seconds</p>
-                    <span>${ITEM_LIST[0][i].txt}{</span>
+                    <span>${ITEM_LIST[0][i].txt}</span>
                     <p class="price">${ITEM_LIST[0][i].price}</p>
                 </div>`
             document.querySelector(".main_box").append(main_item)
