@@ -17,11 +17,15 @@ for (let i = 0; i <8; i++) {
     let border_box = document.getElementsByClassName('border_box');
 
     border_box[1].style.display= "block"
-    border_box[1].style.top= "162px"
+    border_box[1].style.letf= "110px"
+
+
     main_gender[0].addEventListener('click' , function () {
 
         for (let i = 0; i < main_gender.length; i++) {
             border_box[i].style.display= "none"
+            
+           
         }
         border_box[0].style.display= "block"
         
